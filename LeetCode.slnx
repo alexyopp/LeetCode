@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="26 - Remove Duplicate from Sorted Array/26 - Remove Duplicate from Sorted Array.vcxproj" Id="d712caf6-ea3a-4dcc-9c21-015da2298513" />
+  <Project Path="27 - Remove Element/27 - Remove Element.vcxproj" Id="5e3b3ea7-7f35-4699-9fda-79f2ac9b5b22" />
+  <Project Path="80 - Remove Duplicates from Sorted Array II/80 - Remove Duplicates from Sorted Array II.vcxproj" Id="d98f778f-d00e-46a5-b6f2-39859e0a1e3a" />
+  <Project Path="88 - Merge Sorted Array/88 - Merge Sorted Array.vcxproj" Id="0a35bd52-837e-41a6-b2c0-5e384cb5d55a" />
+  <Project Path="HelperLibrary/HelperLibrary.vcxproj" Id="e30ff486-cac6-4d3d-afa1-1745e7692f2c" />
+</Solution>
