@@ -45,7 +45,7 @@
 //  Note that the five elements can be returned in any order.
 //  It does not matter what you leave beyond the returned k (hence they are underscores).
 //
-//  Constraints :
+//  Constraints:
 //
 //  0 <= nums.length <= 100
 //  0 <= nums[i] <= 50

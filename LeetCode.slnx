@@ -3,6 +3,10 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="121 - Best Time to Buy and Sell Stock/121 - Best Time to Buy and Sell Stock.vcxproj" Id="2075c122-1b32-4488-b41b-120491b2cd76" />
+  <Project Path="122 - Best Time to Buy and Sell Stock II/122 - Best Time to Buy and Sell Stock II.vcxproj" Id="dadb585f-a81b-498e-b570-3bfeca18c5d7" />
+  <Project Path="169 - Majority Element/169 - Majority Element.vcxproj" Id="dd10a589-9924-49ea-92de-a41863ae440d" />
+  <Project Path="189 - Rotate Array/189 - Rotate Array.vcxproj" Id="cf5ee0a2-bd76-466d-8bdd-5545a9065b4a" />
   <Project Path="26 - Remove Duplicate from Sorted Array/26 - Remove Duplicate from Sorted Array.vcxproj" Id="d712caf6-ea3a-4dcc-9c21-015da2298513" />
   <Project Path="27 - Remove Element/27 - Remove Element.vcxproj" Id="5e3b3ea7-7f35-4699-9fda-79f2ac9b5b22" />
   <Project Path="80 - Remove Duplicates from Sorted Array II/80 - Remove Duplicates from Sorted Array II.vcxproj" Id="d98f778f-d00e-46a5-b6f2-39859e0a1e3a" />

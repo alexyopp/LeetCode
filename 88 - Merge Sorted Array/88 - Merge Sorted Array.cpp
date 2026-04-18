@@ -16,14 +16,14 @@
 //  Explanation: The arrays we are merging are [1, 2, 3] and [2, 5, 6].
 //  The result of the merge is [1*, 2*, 2, 3*, 5, 6] with the starred elements coming from nums1.
 //
-//  Example 2 :
+//  Example 2:
 //
 //  Input: nums1 = [1], m = 1, nums2 = [], n = 0
 //  Output: [1]
 //  Explanation: The arrays we are merging are [1] and [].
 //  The result of the merge is [1].
 //
-//  Example 3 :
+//  Example 3:
 //
 //  Input: nums1 = [0], m = 0, nums2 = [1], n = 1
 //  Output: [1]
