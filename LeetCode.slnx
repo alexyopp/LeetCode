@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="0045 - Jump Game II/0045 - Jump Game II.vcxproj" Id="3c12f617-bb49-4803-a479-8f58cc6c624d" />
   <Project Path="121 - Best Time to Buy and Sell Stock/121 - Best Time to Buy and Sell Stock.vcxproj" Id="2075c122-1b32-4488-b41b-120491b2cd76" />
   <Project Path="122 - Best Time to Buy and Sell Stock II/122 - Best Time to Buy and Sell Stock II.vcxproj" Id="dadb585f-a81b-498e-b570-3bfeca18c5d7" />
   <Project Path="169 - Majority Element/169 - Majority Element.vcxproj" Id="dd10a589-9924-49ea-92de-a41863ae440d" />
