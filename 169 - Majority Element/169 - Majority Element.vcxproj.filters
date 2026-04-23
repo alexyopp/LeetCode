@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="169 - Majority Element.cpp">
+    <ClCompile Include="0169 - Majority Element.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

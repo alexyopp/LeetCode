@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="55 - Jump Game.cpp">
+    <ClCompile Include="0055 - Jump Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

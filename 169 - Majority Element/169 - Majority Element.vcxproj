@@ -132,7 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="169 - Majority Element.cpp" />
+    <ClCompile Include="0169 - Majority Element.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution1.h" />

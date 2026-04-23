@@ -132,7 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="26 - Remove Duplicate from Sorted Array.cpp" />
+    <ClCompile Include="0026 - Remove Duplicate from Sorted Array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelperLibrary\HelperLibrary.vcxproj">

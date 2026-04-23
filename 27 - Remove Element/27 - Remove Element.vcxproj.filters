@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="27 - Remove Element.cpp">
+    <ClCompile Include="0027 - Remove Element.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

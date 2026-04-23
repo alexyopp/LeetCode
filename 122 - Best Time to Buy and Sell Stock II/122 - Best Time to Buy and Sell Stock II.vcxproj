@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="122 - Best Time to Buy and Sell Stock II.cpp" />
+    <ClCompile Include="0122 - Best Time to Buy and Sell Stock II.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution1.h" />

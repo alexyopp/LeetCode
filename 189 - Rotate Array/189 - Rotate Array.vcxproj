@@ -132,7 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="189 - Rotate Array.cpp" />
+    <ClCompile Include="0189 - Rotate Array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelperLibrary\HelperLibrary.vcxproj">

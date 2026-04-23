@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="88 - Merge Sorted Array.cpp">
+    <ClCompile Include="0088 - Merge Sorted Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

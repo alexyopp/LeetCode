@@ -132,7 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="27 - Remove Element.cpp" />
+    <ClCompile Include="0027 - Remove Element.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelperLibrary\HelperLibrary.vcxproj">

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="80 - Remove Duplicates from Sorted Array II.cpp">
+    <ClCompile Include="0080 - Remove Duplicates from Sorted Array II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
