@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="0045 - Jump Game II/0045 - Jump Game II.vcxproj" Id="3c12f617-bb49-4803-a479-8f58cc6c624d" />
+  <Project Path="0134 - Gas Station/0134 - Gas Station.vcxproj" Id="ae3bb835-3104-4575-8338-26815a8d2585" />
   <Project Path="0238 - Product of Array Except Self/0238 - Product of Array Except Self.vcxproj" Id="3304c586-208c-43ef-9ff5-1293d75b075b" />
   <Project Path="0274 - H-Index/0274 - H-Index.vcxproj" Id="31159579-f196-4ded-8124-0a7b3708ea99" />
   <Project Path="0380 - Insert Delete GetRandom O(1)/0380 - Insert Delete GetRandom O(1).vcxproj" Id="e9173a38-5ae7-4219-bfc5-7a8caf11b49f" />
