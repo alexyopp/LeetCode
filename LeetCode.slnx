@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="0001 - Two Sum/0001 - Two Sum.vcxproj" Id="d12c6487-6069-4d8f-9330-6399eb398418" />
+  <Project Path="0003 - Longest Substring Without Repeating Characters/0003 - Longest Substring Without Repeating Characters.vcxproj" Id="50f3d582-031b-47d3-89c8-c57977b501d5" />
   <Project Path="0045 - Jump Game II/0045 - Jump Game II.vcxproj" Id="3c12f617-bb49-4803-a479-8f58cc6c624d" />
   <Project Path="0134 - Gas Station/0134 - Gas Station.vcxproj" Id="ae3bb835-3104-4575-8338-26815a8d2585" />
   <Project Path="0135 - Candy/0135 - Candy.vcxproj" Id="7ca186e2-9118-431b-a9f2-b6ea67499ee2" />
