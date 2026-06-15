@@ -31,66 +31,72 @@ struct ListNode {
 
 using namespace std;
 
-int pairSum(ListNode* head) {
+namespace Solution1
+{
+    class Solution {
+    public:
+        int pairSum(ListNode* head) {
 
-    // Get the size of the list
-    int listSize = 0;
-    ListNode* cur = head;
-    while (cur != nullptr)
-    {
-        ++listSize;
-        cur = cur->next;
-    }
+            // Get the size of the list
+            int listSize = 0;
+            ListNode* cur = head;
+            while (cur != nullptr)
+            {
+                ++listSize;
+                cur = cur->next;
+            }
 
-    // Get to just before the midpoint of the list
-    cur = head;
-    for (int i = 0; i < (listSize/2) - 1; ++i)
-    {
-        cur = cur->next;
-    }
+            // Get to just before the midpoint of the list
+            cur = head;
+            for (int i = 0; i < (listSize / 2) - 1; ++i)
+            {
+                cur = cur->next;
+            }
 
-    // From here on out, change the node to point at the previous node, instead of the next node.
-    ListNode* prev = cur;           // i-1
-    cur = cur->next;                // i
-    ListNode* next = cur->next;     // i+1
+            // From here on out, change the node to point at the previous node, instead of the next node.
+            ListNode* prev = cur;           // i-1
+            cur = cur->next;                // i
+            ListNode* next = cur->next;     // i+1
 
-    while (cur != nullptr)
-    {
-        // Overwrite the node's next pointer to point at the previous (reverse) node, the work we actually want to do
-        cur->next = prev;
+            while (cur != nullptr)
+            {
+                // Overwrite the node's next pointer to point at the previous (reverse) node, the work we actually want to do
+                cur->next = prev;
 
-        // In prepartion for the next loop, set the previous pointer to point at the current node
-        prev = cur;
+                // In prepartion for the next loop, set the previous pointer to point at the current node
+                prev = cur;
 
-        // Move our current node to the next (forward) node
-        cur = next;
+                // Move our current node to the next (forward) node
+                cur = next;
 
-        // Save the pointer to the next (forward) node in a temp, so we know how to continue forward traversal
-        if(cur != nullptr)
-        {
-            next = cur->next;
+                // Save the pointer to the next (forward) node in a temp, so we know how to continue forward traversal
+                if (cur != nullptr)
+                {
+                    next = cur->next;
+                }
+            }
+
+            // Now we can iterate through the list a final time, with the two iterators approaching each other, comparing the
+            // sum of the value to the maximum we've found so far.  As we go, get the nodes pointing back the way they should.
+            int maxSum{ 0 };
+            int curSum{ 0 };
+            cur = prev;                 // i
+            prev = prev->next;          // i-1
+            next = nullptr;             // i+1
+
+            for (int i = 0; i < listSize / 2; ++i)
+            {
+                curSum = head->val + cur->val;
+                maxSum = max(curSum, maxSum);
+                head = head->next;
+
+                cur->next = next;
+                next = cur;
+                cur = prev;
+                prev = cur->next;
+            }
+
+            return maxSum;
         }
-    }
-
-    // Now we can iterate through the list a final time, with the two iterators approaching each other, comparing the
-    // sum of the value to the maximum we've found so far.  As we go, get the nodes pointing back the way they should.
-    int maxSum{ 0 };
-    int curSum{ 0 };
-    cur = prev;                 // i
-    prev = prev->next;          // i-1
-    next = nullptr;             // i+1
-
-    for (int i = 0; i < listSize/2; ++i)
-    {
-        curSum = head->val + cur->val;
-        maxSum = max(curSum, maxSum);
-        head = head->next;
-
-        cur->next = next;
-        next = cur;
-        cur = prev;
-        prev = cur->next;
-    }
-
-    return maxSum;
+    };
 }

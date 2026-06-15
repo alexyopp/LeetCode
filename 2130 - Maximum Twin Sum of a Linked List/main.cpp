@@ -49,6 +49,8 @@
 #include <iostream>
 #include <vector>
 
+#include "Helpers.h"
+
 #include "Solution1.h"
 
 void createList(const std::vector<int>& values, ListNode** head)
@@ -74,24 +76,33 @@ void destroyList(ListNode* head)
 
 int main()
 {
-    std::vector<int> testCaseVals;
+    std::vector<int> input;
+    int output;
     ListNode* head{ nullptr };
 
+    // Create an instance of the solution so we can call the member function
+    Solution1::Solution solution;
+    // Small wrapper that forwards the ListNode* to the instance method
+    auto pairSumCallable = [&solution](ListNode* h) { return solution.pairSum(h); };
+
     // Case 1
-    testCaseVals = { 5, 4, 2, 1 };
-    createList(testCaseVals, &head);
-    std::cout << pairSum(head) << std::endl;
+    input = { 5, 4, 2, 1 };
+    output = 6;
+    createList(input, &head);
+    std::cout << "Case 1: " << (Helpers::RunTestCase(pairSumCallable, head, output) ? "PASS" : "FAIL") << "\n";
     destroyList(head);
 
     // Case 2
-    testCaseVals = { 4, 2, 2, 3 };
-    createList(testCaseVals, &head);
-    std::cout << pairSum(head) << std::endl;
+    input = { 4, 2, 2, 3 };
+    output = 7;
+    createList(input, &head);
+    std::cout << "Case 2: " << (Helpers::RunTestCase(pairSumCallable, head, output) ? "PASS" : "FAIL") << "\n";
     destroyList(head);
 
     // Case 3
-    testCaseVals = { 1, 100000 };
-    createList(testCaseVals, &head);
-    std::cout << pairSum(head) << std::endl;
+    input = { 1, 100000 };
+    output = 100001;
+    createList(input, &head);
+    std::cout << "Case 3: " << (Helpers::RunTestCase(pairSumCallable, head, output) ? "PASS" : "FAIL") << "\n";
     destroyList(head);
 }

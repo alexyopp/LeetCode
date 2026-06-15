@@ -146,7 +146,9 @@
     <ClInclude Include="Helpers.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="example\main.cpp" />
     <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="tests\HelpersTests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
