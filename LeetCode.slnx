@@ -3,6 +3,9 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
   <Project Path="0001 - Two Sum/0001 - Two Sum.vcxproj" Id="d12c6487-6069-4d8f-9330-6399eb398418" />
   <Project Path="0003 - Longest Substring Without Repeating Characters/0003 - Longest Substring Without Repeating Characters.vcxproj" Id="50f3d582-031b-47d3-89c8-c57977b501d5" />
   <Project Path="0042 - Trapping Rain Water/0042 - Trapping Rain Water.vcxproj" Id="9c7da7cb-b360-40c4-bdce-045b5356c7a7" />
