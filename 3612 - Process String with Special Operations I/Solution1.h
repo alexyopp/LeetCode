@@ -32,13 +32,17 @@ namespace Solution1
                 }
                 else if (character == '%')
                 {
-                    auto startIter = result.begin();
-                    auto endIter = result.end() - 1;
-                    while (endIter - startIter > 0)
+                    // size() == 0, 1 means there's nothing to reverse
+                    if (result.size() > 1)
                     {
-                        iter_swap(startIter, endIter);
-                        ++startIter;
-                        --endIter;
+                        auto startIter = result.begin();
+                        auto endIter = result.end() - 1;
+                        while (endIter - startIter > 0)
+                        {
+                            iter_swap(startIter, endIter);
+                            ++startIter;
+                            --endIter;
+                        }
                     }
                 }
                 else

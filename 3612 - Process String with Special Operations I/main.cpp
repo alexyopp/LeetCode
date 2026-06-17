@@ -63,5 +63,10 @@ int main()
     // Case 2
     s = "z*#";
     expectedOutput = "";
-    std::cout << "Case 1: " << (Helpers::RunTestCase(processStrCallable, s, expectedOutput) ? "PASS" : "FAIL") << "\n";
+    std::cout << "Case 2: " << (Helpers::RunTestCase(processStrCallable, s, expectedOutput) ? "PASS" : "FAIL") << "\n";
+
+    // Case 3  - triggered a bug in the algorithm when working on 3614
+    s = "%e";
+    expectedOutput = "e";
+    std::cout << "Case 3: " << (Helpers::RunTestCase(processStrCallable, s, expectedOutput) ? "PASS" : "FAIL") << "\n";
 }
