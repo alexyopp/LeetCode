@@ -59,6 +59,9 @@
 *   what is happeneing, the 2 here is capturing the valid subarrays ending in i=3; [2] and [2, 1, 2].
 *
 *   Our iteration is complete, return result (3).
+*
+*   For the code below, add an additional leading zero to the frequency and accumulated frequency arrays, so there's a previous
+*   value to pull from when balance = 0.
 */
 
 #include <vector>       //  for std::vector
@@ -70,12 +73,6 @@ namespace Solution1
     class Solution {
     public:
         long long countMajoritySubarrays(vector<int>& nums, int target) {
-            //int targetCount = count(nums.cbegin(), nums.cend(), target);
-            //if (targetCount == 0)
-            //{
-            //    return 0;
-            //}
-
             int n = nums.size();
             int balance = n+1;
             vector<int> balanceFrequencies(2 * n + 2, 0 );
@@ -101,7 +98,6 @@ namespace Solution1
             }
 
             return results;
-
         }
     };
 }
