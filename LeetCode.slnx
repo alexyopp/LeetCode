@@ -20,6 +20,7 @@
   <Project Path="1189 - Maximum Number of Balloons/1189 - Maximum Number of Balloons.vcxproj" Id="2d371f85-b754-4057-9523-adf72e4e350c" />
   <Project Path="121 - Best Time to Buy and Sell Stock/121 - Best Time to Buy and Sell Stock.vcxproj" Id="2075c122-1b32-4488-b41b-120491b2cd76" />
   <Project Path="122 - Best Time to Buy and Sell Stock II/122 - Best Time to Buy and Sell Stock II.vcxproj" Id="dadb585f-a81b-498e-b570-3bfeca18c5d7" />
+  <Project Path="1260 - Shift 2D Grid/1260 - Shift 2D Grid.vcxproj" Id="7b6a3ad8-64ba-4013-95f9-2d823ff37e82" />
   <Project Path="1288 - Remove Covered Intervals/1288 - Remove Covered Intervals.vcxproj" Id="2dc01469-4bae-4483-b25d-ec6560ea9625" />
   <Project Path="1291 - Sequential Digits/1291 - Sequential Digits.vcxproj" Id="e95f1366-0638-406e-a26f-6d7e9f5f68ad" />
   <Project Path="1301 - Number of Paths with Max Score/1301 - Number of Paths with Max Score.vcxproj" Id="e33137f4-f50b-4816-aef2-604f3f75ed53" />
@@ -41,6 +42,7 @@
   <Project Path="27 - Remove Element/27 - Remove Element.vcxproj" Id="5e3b3ea7-7f35-4699-9fda-79f2ac9b5b22" />
   <Project Path="2812 - Find the Safest Path in a Grid/2812 - Find the Safest Path in a Grid.vcxproj" Id="2667f605-a36c-4faf-a554-0e7506230632" />
   <Project Path="3020 - Find the Maximum Number of Elements in Subset/3020 - Find the Maximum Number of Elements in Subset.vcxproj" Id="39c3a674-61f5-4d68-ac03-94fec0359089" />
+  <Project Path="3069 - Distribute Elements Into Two Arrays I/3069 - Distribute Elements Into Two Arrays I.vcxproj" Id="97e04a04-9c0d-4267-88c9-402136ef5814" />
   <Project Path="3286 - Find a Safe Walk Through a Grid/3286 - Find a Safe Walk Through a Grid.vcxproj" Id="af3beacb-3b2e-42a5-ba4f-d855c70bc465" />
   <Project Path="3336 - Find the Number of Subsequences With Equal GCD/3336 - Find the Number of Subsequences With Equal GCD.vcxproj" Id="780a84cb-776b-4e14-a433-616b4ad5b5a2" />
   <Project Path="3532 - Path Existence Queries in a Graph I/3532 - Path Existence Queries in a Graph I.vcxproj" Id="639b13a3-2450-4fc4-befd-f07074f0b5c1" />
